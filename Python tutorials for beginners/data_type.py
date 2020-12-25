@@ -128,3 +128,17 @@ list5 = list("python") # Create a list with characters p, y, t, h, o, n
 l = [1,2,3,4,5]
 l[1] # access second element in the list
 l[0] # access first element in the list
+
+'''
+Method name 	Description
+x in s   	True if element x is in sequence s, False otherwise
+x not in s   	True if element x is not in sequence s, False otherwise
+s1 + s2   	Concatenates two sequences s1 and s2
+s * n , n * s   	n copies of sequence s concatenated
+s[i]  	 ith element in sequence s.
+len(s)  	Length of sequences, i.e. the number of elements ins`.
+min(s)  	Smallest element in sequence s.
+max(s) 	Largest element in sequence s.
+sum(s)  	 Sum of all numbers in sequence s.
+for loop 	 Traverses elements from left to right in a for loop.
+'''
