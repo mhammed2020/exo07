@@ -197,3 +197,15 @@ friends = {
 
 for key in friends:
     print(key, ":", friends[key])
+
+
+    #tuple 
+
+
+t1 = () # creates an empty tuple with no data
+
+t2 = (11,22,33)
+
+t3 = tuple([1,2,3,4,4]) # tuple from array
+
+t4 = tuple("abc") # tuple from string
