@@ -223,3 +223,13 @@ len(t1)
 t = (11,22,33,44,55)
 for i in t:
     print(i, end=" ")
+
+
+# control statement
+
+i = 10
+
+if i % 2 == 0:
+   print("Number is even")
+else:
+   print("Number is odd")
