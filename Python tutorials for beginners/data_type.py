@@ -233,3 +233,15 @@ if i % 2 == 0:
    print("Number is even")
 else:
    print("Number is odd")
+
+
+if boolean-expression:
+    #statements
+elif boolean-expression:
+   #statements
+elif boolean-expression:
+   #statements
+elif boolean-expression:
+   #statements
+else:
+   #statements
