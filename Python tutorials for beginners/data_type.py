@@ -73,3 +73,11 @@ print(s[1:3])
 print(s[:6])
 print(s[4:])
 print(s[1:-1])
+# in and  not functions 
+
+
+s1 = "Welcome"
+
+print("come" in s1)
+
+print("come" not in s1)
