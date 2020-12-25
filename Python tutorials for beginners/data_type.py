@@ -264,3 +264,15 @@ elif today == "sunday":
    print("this is sunday")
 else:
    print("something else")
+
+
+
+today = "holiday"
+bank_balance = 25000
+if today == "holiday":
+   if bank_balance > 20000:
+      print("Go for shopping")
+   else:
+      print("Watch TV")
+else:
+   print("normal working day")
