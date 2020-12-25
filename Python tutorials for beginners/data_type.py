@@ -183,4 +183,8 @@ friends = {
 'jerry' : '666-33-111'
 }
 friends['tom']
-dictionary_name['newkey'] = 'newvalue
+dictionary_name['newkey'] = 'newvalue'
+
+
+del friends['tom']
+friends
