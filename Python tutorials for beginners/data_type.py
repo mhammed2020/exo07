@@ -154,3 +154,22 @@ print(2 in list1)
 list = [1,2,3,4,5]
 for i in list:
     print(i, end=" ")
+
+
+list1 = [ x for x in range(10) ]
+list1
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+list2 = [ x + 1 for x in range(10) ]
+list2
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+list3 = [ x for x in range(10) if x % 2 == 0 ]
+list3
+[0, 2, 4, 6, 8]
+
+
+list4 = [ x *2 for x in range(10) if x % 2 == 0 ]
+[0, 4, 8, 12, 16]
