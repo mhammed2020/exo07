@@ -142,3 +142,7 @@ max(s) 	Largest element in sequence s.
 sum(s)  	 Sum of all numbers in sequence s.
 for loop 	 Traverses elements from left to right in a for loop.
 '''
+
+
+list = [11,33,44,66,788,1]
+list[0:5] # this will return list starting from index 0 to index 4
