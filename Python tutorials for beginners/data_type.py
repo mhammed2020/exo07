@@ -146,3 +146,6 @@ for loop 	 Traverses elements from left to right in a for loop.
 
 list = [11,33,44,66,788,1]
 list[0:5] # this will return list starting from index 0 to index 4
+
+list1 = [11, 22, 44, 16, 77, 98]
+print(2 in list1)
