@@ -149,3 +149,8 @@ list[0:5] # this will return list starting from index 0 to index 4
 
 list1 = [11, 22, 44, 16, 77, 98]
 print(2 in list1)
+
+
+list = [1,2,3,4,5]
+for i in list:
+    print(i, end=" ")
