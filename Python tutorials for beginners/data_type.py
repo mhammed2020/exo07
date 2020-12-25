@@ -51,3 +51,8 @@ print(id(str1),  id(str2))
 str1 += " mike"
 
 #str1[1]='b' error  Strings in Python are Immutable
+
+name = "tom"
+
+print(name[0])
+print(name[1])
