@@ -173,3 +173,12 @@ list3
 
 list4 = [ x *2 for x in range(10) if x % 2 == 0 ]
 [0, 4, 8, 12, 16]
+
+
+
+#dict
+
+friends = {
+'tom' : '111-222-333',
+'jerry' : '666-33-111'
+}
