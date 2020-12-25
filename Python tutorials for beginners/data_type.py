@@ -15,3 +15,16 @@ y, x = x, y # assign y value to x and x value to y
 
 name = input("Enter your name: ")
 print(name)
+
+age = int(input("Enter your age: "))
+
+print(age)
+print(type(age))
+
+
+import math, os
+
+print(math.pi)
+print(math.e)
+
+print(os.getcwd())
