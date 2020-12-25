@@ -182,3 +182,5 @@ friends = {
 'tom' : '111-222-333',
 'jerry' : '666-33-111'
 }
+friends['tom']
+dictionary_name['newkey'] = 'newvalue
