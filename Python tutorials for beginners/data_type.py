@@ -11,3 +11,7 @@ x = 1   # initial value of x is 1
 y = 2   # initial value of y is 2
 
 y, x = x, y # assign y value to x and x value to y
+
+
+name = input("Enter your name: ")
+print(name)
