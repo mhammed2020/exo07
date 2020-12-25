@@ -86,3 +86,14 @@ print("come" not in s1)
 s = "hello"
 for i in s:
     print(i, end="")
+
+
+s = "welcome to python"
+
+print(s.isalnum())
+print("Welcome".isalpha())
+print("2020".isdigit())
+print("first Number".isidentifier())
+print(s.islower())
+print("WELCOME".isupper())
+print("  \t".isspace())
