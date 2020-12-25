@@ -56,3 +56,10 @@ name = "tom"
 
 print(name[0])
 print(name[1])
+
+
+s = "tom and " + "jerry"
+print(s)
+
+s = "spamming is bad " * 3
+print(s)
