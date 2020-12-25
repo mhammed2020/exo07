@@ -209,3 +209,12 @@ t2 = (11,22,33)
 t3 = tuple([1,2,3,4,4]) # tuple from array
 
 t4 = tuple("abc") # tuple from string
+
+t1 = (1, 12, 55, 12, 81)
+min(t1)
+
+max(t1)
+
+sum(t1)
+
+len(t1)
