@@ -42,3 +42,12 @@ name2 = str("newstring") # string object containing 'newstring'
 
 print(name1)
 print(name2)
+
+str1 = "welcome"
+str2 = "welcome"
+
+print(id(str1),  id(str2))
+
+str1 += " mike"
+
+#str1[1]='b' error  Strings in Python are Immutable
