@@ -692,3 +692,14 @@ isinstance(1.2, int)
 isinstance([1,2,3,4], list)
 # True
  
+
+
+ # exception handeling
+
+ 
+try:
+    f = open('somefile.txt', 'r')
+    print(f.read())
+    f.close()
+except IOError:
+    print('file not found')
