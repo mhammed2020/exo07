@@ -381,3 +381,12 @@ while count < 10:
 
 
 print("out of while loop")
+
+
+count = 0
+
+while count < 10:
+    count += 1
+    if count % 2 == 0:
+           continue
+    print(count)
