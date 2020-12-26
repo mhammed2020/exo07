@@ -455,3 +455,16 @@ pickle.dump(11, f)
 pickle.dump("this is a line", f)
 pickle.dump([1, 2, 3, 4], f)
 f.close()
+
+
+#OOP
+
+class Person:
+    
+       # constructor or initializer
+    def __init__(self, name): 
+        self.name = name # name is data field also commonly known as instance variables
+
+    # method which returns a string
+    def whoami(self):
+        return "You are " + self.name
