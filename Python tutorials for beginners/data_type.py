@@ -431,3 +431,9 @@ f = open('myfile.txt', 'r')
 f.readline() # read the first line
 "this first line\n"
 f.close()
+
+
+
+f = open('myfile.txt', 'a')
+f.write("this is third line\n")
+f.close()
