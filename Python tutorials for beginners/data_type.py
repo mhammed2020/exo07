@@ -703,3 +703,18 @@ try:
     f.close()
 except IOError:
     print('file not found')
+
+
+
+try:
+    <body>
+except <ExceptionType1>:
+    <handler1>
+except <ExceptionTypeN>:
+    <handlerN>
+except:
+    <handlerExcept>
+else:
+    <process_else>
+finally:
+    <process_finally>
