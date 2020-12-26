@@ -290,10 +290,20 @@ sum(10, 50)
 
 
 def sum(start, end):
-       result = 0
-   for i in range(start, end + 1):
+    result = 0
+    for i in range(start, end + 1):
        result += i
-   return result
+    return result
 
 s = sum(10, 50)
 print(s)
+
+
+
+global_var = 12         # a global variable
+
+def func():
+    local_var = 100     # this is local variable
+    print(global_var)   # you can access global variables in side function
+
+func()                  # calling function func()
