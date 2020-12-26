@@ -753,3 +753,9 @@ try:
     print("The number entered is", number)
 except NameError as ex:
     print("Exception:", ex)
+
+
+class NegativeAgeException(RuntimeError):
+    def __init__(self, age):
+        super().__init__()
+        self.age = age
