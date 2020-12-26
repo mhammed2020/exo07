@@ -397,3 +397,9 @@ while count < 10:
 import random
 for i in range(0, 10):
      print(random.random())
+
+
+
+import random
+for i in range(0, 10):
+   print(random.randint(1, 10))
