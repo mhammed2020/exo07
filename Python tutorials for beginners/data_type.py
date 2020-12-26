@@ -335,3 +335,15 @@ named_args(greeting='Hello', name='jim') # you can pass arguments this way too
 
 def my_func(a, b, c):
     print(a, b, c)
+
+
+
+def bigger(a, b):
+    if a > b:
+        return a, b
+    else:
+        return b, a
+
+s = bigger(12, 100)
+print(s)
+print(type(s))
