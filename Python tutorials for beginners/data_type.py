@@ -412,3 +412,10 @@ f = open('myfile.txt', 'w')    # open file for writing
 f.write('this first line\n')   # write a line to the file
 f.write('this second line\n')  # write one more line to the file
 f.close()                      # close the file
+
+
+
+f = open('myfile.txt', 'r')
+f.read() # read entire content of file at once
+"this first line\nthis second line\n"
+f.close()
