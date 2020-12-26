@@ -329,3 +329,9 @@ def named_args(name, greeting):
 named_args(name='jim', greeting='Hello')
 
 named_args(greeting='Hello', name='jim') # you can pass arguments this way too
+
+
+
+
+def my_func(a, b, c):
+    print(a, b, c)
