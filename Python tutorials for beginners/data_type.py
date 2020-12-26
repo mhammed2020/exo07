@@ -390,3 +390,10 @@ while count < 10:
     if count % 2 == 0:
            continue
     print(count)
+
+
+#Python Generating Random numbers
+
+import random
+for i in range(0, 10):
+     print(random.random())
