@@ -419,3 +419,10 @@ f = open('myfile.txt', 'r')
 f.read() # read entire content of file at once
 "this first line\nthis second line\n"
 f.close()
+
+
+
+f = open('myfile.txt', 'r')
+f.readlines() # read entire content of file at once
+["this first line\n", "this second line\n"]
+f.close()
