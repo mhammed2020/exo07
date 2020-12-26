@@ -447,3 +447,11 @@ for line in f:
 
 
 f.close()
+
+
+import pickle
+f = open('pick.dat', 'wb')
+pickle.dump(11, f)
+pickle.dump("this is a line", f)
+pickle.dump([1, 2, 3, 4], f)
+f.close()
