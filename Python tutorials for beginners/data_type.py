@@ -359,3 +359,11 @@ for i in my_list:
 
 for i in range(1, 10):
     print(i)
+
+
+
+count = 0
+
+while count < 10:
+    print(count)
+    count += 1
