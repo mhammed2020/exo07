@@ -307,3 +307,14 @@ def func():
     print(global_var)   # you can access global variables in side function
 
 func()                  # calling function func()
+
+
+
+
+global_var = 12         # a global variable
+
+def func():
+    local_var = 100     # this is local variable
+    print(global_var)   # you can access global variables in side function
+
+func()                  # calling function func()
