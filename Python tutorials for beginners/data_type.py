@@ -681,4 +681,14 @@ class B(A):
 
 c = B()
 c.m1()
+
+
+isinstance(1, int)
+# True
+
+isinstance(1.2, int)
+# False
+
+isinstance([1,2,3,4], list)
+# True
  
