@@ -795,3 +795,9 @@ print(foo)
 
 def sum(a, b):
     print("sum is", a+b)
+
+def sum(*args):
+    s = 0
+    for i in args:
+        s += i
+    print("sum is", s)
