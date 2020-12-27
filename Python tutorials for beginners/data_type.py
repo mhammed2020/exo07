@@ -807,3 +807,12 @@ def my_func(**kwargs):
         print(i, j)
 
 my_func(name='tim', sport='football', roll=19)
+
+
+
+
+def my_three(a, b, c):
+    print(a, b, c)
+
+a = [1,2,3]
+my_three(*a) # here list is broken into three elements
