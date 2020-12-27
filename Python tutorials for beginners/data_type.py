@@ -816,3 +816,11 @@ def my_three(a, b, c):
 
 a = [1,2,3]
 my_three(*a) # here list is broken into three elements
+
+
+
+def my_three(a, b, c):
+    print(a, b, c)
+
+a = {'a': "one", 'b': "two", 'c': "three" }
+my_three(**a)
