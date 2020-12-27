@@ -789,3 +789,9 @@ print(mymodule.hello())
 
 from mymodule import foo # this statement import only foo variable from mymodule
 print(foo)
+
+#Python *args and **kwargs
+
+
+def sum(a, b):
+    print("sum is", a+b)
