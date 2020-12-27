@@ -863,3 +863,18 @@ except RuntimeError as ex:
     print(ex)
 except:
     print("Unknown error occurred")
+
+
+#Python Regular Expression
+
+
+import re
+s = "tim email is tim@somehost.com"
+match = re.search(r'[\w.-]+@[\w.-]+', s)
+
+# the above regular expression will match a email address
+
+if match:
+    print(match.group())
+else:
+    print("match not found")
