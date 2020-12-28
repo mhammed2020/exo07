@@ -909,7 +909,15 @@ if match:
 # Python virtualenv Guide
 
 # pip install virtualenv
-
+'''
 
 mkdir python_project
 cd python_project
+
+virtualenv my_env
+
+
+
+my_env\Scripts\activate.bat
+
+'''
