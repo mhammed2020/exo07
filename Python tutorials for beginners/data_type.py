@@ -959,3 +959,9 @@ if __name__ == "__main__":
     print("Executing as main program")
     print("Value of __name__ is: ", __name__)
     hello()
+
+
+# Python Lambda Function
+
+def multiply(x, y):
+    return x * y
