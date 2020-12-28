@@ -974,3 +974,13 @@ print(r(12, 3))   # call the lambda function
 
 
 (lambda x, y: x * y)(3,4)
+
+
+# Python String Formatting
+
+d = {
+'hats' : 122,
+'mats' : 42
+}
+
+"Sam had {hats} hats and {mats} mats".format(**d)
