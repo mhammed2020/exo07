@@ -888,3 +888,11 @@ if match:
     print(match.group()) ## tim@somehost.com (the whole match)
     print(match.group(1)) ## tim (the username, group 1)
     print(match.group(2)) ## somehost (the host, group 2)
+
+
+import re
+s = "Tim's phone numbers are 12345-41521 and 78963-85214"
+match = re.findall(r'\d{5}', s)
+
+if match:
+    print(match)
