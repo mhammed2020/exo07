@@ -878,3 +878,13 @@ if match:
     print(match.group())
 else:
     print("match not found")
+
+
+
+import re
+s = "tim email is tim@somehost.com"
+match = re.search('([\w.-]+)@([\w.-]+)', s)
+if match:
+    print(match.group()) ## tim@somehost.com (the whole match)
+    print(match.group(1)) ## tim (the username, group 1)
+    print(match.group(2)) ## somehost (the host, group 2)
