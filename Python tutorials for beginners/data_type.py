@@ -896,3 +896,10 @@ match = re.findall(r'\d{5}', s)
 
 if match:
     print(match)
+
+
+import re
+s = "python tuts"
+match = re.match(r'py', s)
+if match:
+    print(match.group())
