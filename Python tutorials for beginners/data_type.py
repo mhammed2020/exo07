@@ -903,3 +903,13 @@ s = "python tuts"
 match = re.match(r'py', s)
 if match:
     print(match.group())
+
+
+# Installing packages in python using PIP
+# Python virtualenv Guide
+
+# pip install virtualenv
+
+
+mkdir python_project
+cd python_project
