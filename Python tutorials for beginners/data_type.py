@@ -999,3 +999,12 @@ num1 = True
 num2 = False
 print(type(num1) )
 print( type(num2))
+
+
+num1 = 0
+mystr = "tuto python  "
+while(num1 < len(mystr)):
+    print(mystr[num1],end="")
+    num1+=1
+else:
+    print("good  job")
