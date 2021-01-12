@@ -1008,3 +1008,10 @@ while(num1 < len(mystr)):
     num1+=1
 else:
     print("good  job")
+
+
+num = (1,4,5,67,8,99)
+print(num,type(num))
+
+for i in num:
+    print(i)
