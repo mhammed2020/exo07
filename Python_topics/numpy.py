@@ -18,3 +18,9 @@ import numpy as np
 a = np.array([[1,2],[3,4],[5,6]])  
 print(a[0,1])  
 print(a[2,0])  
+
+
+
+import numpy as np  
+a=np.linspace(5,15,10) #prints 10 values which are evenly spaced over the given interval 5-15  
+print(a)  
