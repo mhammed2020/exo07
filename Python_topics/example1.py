@@ -14,3 +14,17 @@ with open(r'path\example.csv') as csv_file:
             print(f'\t{row[0]} roll number is:  {row[1]} and department is: {row[2]}.')  
             count_line += 1  
     print(f'Processed {count_line} lines.') # This line will print number of line fro the file  
+
+
+
+# pass is just a placeholder for  
+# we will adde functionality later.  
+values = {'P', 'y', 't', 'h','o','n'}  
+for val in values:  
+    pass  
+
+for i in [1,2,3,4,5]:   
+    if(i==4):  
+        pass  
+        print("This is pass block",i)  
+    print(i) 
