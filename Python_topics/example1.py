@@ -28,3 +28,13 @@ for i in [1,2,3,4,5]:
         pass  
         print("This is pass block",i)  
     print(i) 
+
+
+import csv    
+with open('python.csv') as csv_file:    
+    csv_reader = csv.reader(csv_file, delimiter=',')    
+    line_count = 0    
+    for row in csv_reader:    
+        if line_count == 0:    
+            print(f'Column names are {", ".join(row)}')    
+            line_count += 1  
