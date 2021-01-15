@@ -7,3 +7,7 @@ try:
 except FileNotFoundError:
     print(f"Sorry, the file {filename} does not exist.")
 
+
+
+title = "Alice in Wonderland"
+title.split()
