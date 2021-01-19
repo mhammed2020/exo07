@@ -9,4 +9,4 @@ class NamesTestCase(unittest.TestCase):
         self.assertEqual(formatted_name, 'Janis Joplin')
 
 
- if __name__ == '__main__':
+if __name__ == '__main__':
