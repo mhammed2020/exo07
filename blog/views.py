@@ -24,3 +24,9 @@ def function_based(request):
     return render(request,
                   'blog/function_based.html',
                   {'posts': posts})
+    
+class ThemeListView(ListView):
+    model = Post
+    paginate_by = 5
+    template_name = 'blog/theme.html'
+    context_object_name = 'posts'
