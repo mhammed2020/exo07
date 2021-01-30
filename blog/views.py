@@ -30,3 +30,9 @@ class ThemeListView(ListView):
     paginate_by = 5
     template_name = 'blog/theme.html'
     context_object_name = 'posts'
+    
+class ThemeListView2(ListView):
+    model = Post
+    paginate_by = 5
+    template_name = 'blog/theme2.html'
+    context_object_name = 'posts'
